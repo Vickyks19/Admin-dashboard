@@ -1,0 +1,10 @@
+if (!check) {
+  return res.json("Invalid Credentials");
+}
+
+if (check.password !== password) {
+  return res.json("Invalid Credentials");
+}
+
+res.send("LOGIN");
+console.log(1, 2, 3, Profile);
